@@ -1,4 +1,4 @@
-package cpm.securityApp.user;
+package com.securityApp.user;
 
 import java.security.Principal;
  
