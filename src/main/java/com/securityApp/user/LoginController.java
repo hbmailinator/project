@@ -50,7 +50,7 @@ return "admin_page";
  
 
 @Secured({"ROLE_ADMIN", "ROLE_REGULAR_USER"})
-@RequestMapping(value="/specialAdmin", method = RequestMethod.GET)
+@RequestMapping(value="/specialAdmin1", method = RequestMethod.GET)
 public String adminSp(ModelMap model) {
  
 return "admin_page";
